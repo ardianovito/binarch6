@@ -1,0 +1,300 @@
+@media all and (max-width:1000px){
+   
+    
+    
+}
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+    .top-wrapper{
+        max-height:max-content;
+    }
+    .heading h1{
+        font-size:50px ;
+        padding-top: 200px;
+    }
+
+    .heading p{
+        font-size: 20px;
+    }
+
+    .heading h2{
+        padding-top:50%;
+        position: relative;
+    }
+
+    .header-right, .headermid{
+        display:none;
+    }
+
+    .menu-icon{
+        display:block;
+        margin: 20px;
+        }
+    
+    .logo{
+        position: relative;
+    }
+
+    .top-wrapper{
+        background-position: center;
+    }
+
+    .content{
+        margin-left: 0;
+    }
+    .content h2{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .content p{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rts{
+        width: 500px;
+        height: 250px;
+        margin: 50px;
+    }
+
+    .imggc{
+        margin-top: 0;
+    }
+
+    .isipage2{
+        margin-top: 0;
+    }
+
+    .imggc1{
+        margin-top: 36%;
+        margin-left: 20%;
+    }
+
+    .icc{
+        width: 10px;
+    }
+
+    .arrowleft{
+        padding-left: 5%;
+        padding-top: 23%;
+    }
+
+    .arrowright{
+        padding-top:23%;
+        padding-right: 12%;
+    }
+
+    .contentft h2{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .contentft p{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .ct1 , .ct2 , .ct3{
+        margin-left: 25%;
+    }
+
+    .ct1 h2{
+        font-size: 25px;
+    }
+
+    .ct1 p{
+        font-size: 20px;
+    }
+
+    .ct2 h2{
+        font-size: 25px;
+    }
+
+    .ct3 h2{
+        font-size: 25px;
+    }
+    .garis{
+        margin-left: 31%;
+        height: 75px;
+    }
+
+    .tittlesystem p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .headctrsys h2{
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .listos{
+        padding: 20px 20px;
+    }
+
+    .listos h2{
+        font-size: 15px;
+    }
+
+    .listos p{
+        font-size: 15px;
+    }
+
+    .listgrap{
+        padding: 20px;
+    }
+
+    .listgrap h2, .listgrap p{
+        font-size: 15px;
+    }
+
+    .isitop{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .ts h2, .ts p{
+        text-align: center;
+    }
+
+    .ts h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .ts p{
+        font-size: 15px;
+    }
+
+    .btntopscore{
+        width: 150px;
+        height: 50px;
+        margin-top: 0;
+    }
+
+    .cl:nth-child(odd) , .cl:nth-child(even){
+        padding: 0;
+    }
+
+    .cl{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .wrappercomment{
+        padding-top: 10%;
+        padding-left: 0;
+    }
+
+
+    .comment{
+    line-height:0px;
+    padding-top: 16%;
+    padding-left: 20px;
+    }
+
+    .imgts h2{
+        font-size:15px;
+    }
+
+    .imgts p{
+        font-size: 15px;
+    }
+
+    .imgskull{
+        width: 150px;
+        height:250px;
+        margin: 0;
+        }
+
+    .imgteng{
+        padding-left: 40%;
+    }
+
+    .txtns h2, .txtns p{
+        text-align: center;
+    }
+
+    .nlp p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .txtns h2{
+        font-size: 20px;
+    }
+    .txtns p{
+        font-size: 15px;
+    }
+
+    .nsconten{
+        margin: 0;
+        padding: 0;
+    }
+
+    .form-control{
+        height: 50px;
+    }
+
+    .btnsubmit{
+        height:50px;
+        font-size: 10px;
+    }
+
+    .subs{
+        margin-top: 50px;
+    }
+
+    .news{
+        padding-top: 100px;
+    }
+
+    ::placeholder{
+        font-size: 10px;
+    }
+
+
+    .txtlist{
+        padding: 0;
+    }
+
+    .txtlist li{
+        font-size: 15px;
+
+    }
+
+    .footerlist-1{
+        margin: 0;
+    }
+
+    .footerlist-1 li{
+        padding-left: 15px;
+    }
+
+    .footerlist-2{
+        padding:0 ;
+    }
+
+    .cccopyright{
+        font-size: 10px;
+    }
+    .ccleft p{
+        font-size: 10px
+    }
+
+    .ccright{
+        margin: 0;
+    }
+
+    .ccright li{
+        font-size: 10px;
+    }
+}

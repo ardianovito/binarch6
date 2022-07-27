@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <!--navbar-->
+    <header>
+    <div class="container-fluid">
+        
+    <div class="header-left">
+        <img class="logo" src="/assetweb/icon.ico" alt="">
+        <span class="menu-icon"><i class="fa fa-bars"></i></span>
+    <div class="headermid">
+        <ul>
+            <li><a href="#"> HOME</a></li>
+            <li><a href="#"> WORK</a></li>
+            <li><a href="#"> CONTACT</a></li>
+            <li><a href="#"> ABOUT ME</a></li>
+        </ul>
+    </div>
+    <div class="header-right">
+        <ul>
+            <li><a href="/usermanagement">USER MANAGEMENT</a></li>
+            <li><form method="POST" action="/logout">
+                <button type="submit" class="btn btn-primary">Log out</button>
+            </form></li>
+        </ul>
+    </div>
+    </div>
+
+
+    </div>
+</header>
+<!--PAGE 1-->
+<div class="top-wrapper">
+    <div class="container-fluid">
+    <div class="heading">
+        
+        <h1>PLAY TRADITIONAL GAME</h1>
+        <h3>Welcome "<%= user.fullname%>"</h3>
+        <p>Experience new traditional game play</p>
+        <button type="button" class="btnplay" style="font-weight: bolder; border-radius: 6px; background-color: rgb(255, 166, 0); border: none;"><a style="text-decoration:none; color:black;" href="/game">PLAY NOW</a></button>
+        <h2>The Story</h2>
+
+        <img class="arrow" src="/assetweb/scroll-down.svg" alt="">
+    </div>
+    </div>
+</div>
+<!--PAGE 2-->
+<div class="gamechoice">
+    <div class="container-fluid">
+        <div class="row isipage2" style="margin-top:10%;">
+            <div class="col-md-4 cont1">
+            <div class="content">
+            <p>What's so special?</p>
+            <h2>THE GAMES</h2>
+            </div>
+            </div>
+            
+            <div class="col-md-8 gambargc">
+                <div class="container-fluid">
+                <div class="atribute">
+                <div class="imggc">
+                    <img class="rts" src="/assetweb/rockpaperstrategy-1600.jpg" alt="">
+                </div>
+                
+                <div class="imggc1">
+                    <ul>
+                        <li><img class="icc" src="/assetweb/ellipse.svg" alt="">
+                        <li><img class="icc" src="/assetweb/ellipse-outline.svg" alt=""></li>
+                        <li><img class="icc" src="/assetweb/ellipse-outline.svg" alt=""></li>
+                        <li><img class="icc" src="/assetweb/ellipse-outline.svg" alt=""></li>
+                        <li><img class="icc" src="/assetweb/ellipse-outline.svg" alt=""></li>
+                    </ul>
+                </div>
+
+                <div class="arrowleft">
+                    <img class="arrowl" src="/assetweb/switch-left.svg" alt="">
+                </div>
+
+                <div class="arrowright">
+                    <img class="arrowr" src="asset/switch-right.svg" alt="">
+                </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--PAGE 3-->
+<div class="feature">
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 10%;">
+            <div class="col-md-6 cont2"></div>
+            <div class="col-md-4 gambarft">
+                <div class="row-cols-lg-2 contentft" style="width:100%;">
+                    <p>What's so special?</p>
+                    <h2>FEATURES</h2>
+                </div>
+
+                <div class="row-cols-lg-1 ctnft" style="width: fit-content; margin-top: 15%;">
+                    <div class="container ct1">
+                    <div class="imgft1">
+                        <img class="el1" src="/assetweb/ellipse.svg" alt="">
+                    </div>
+                    <div class="ctnft1">
+                    <h2 style="color: rgb(255, 166, 0) ; font-weight: 400;">TRADITIONAL GAMES</h2>
+                        <p style="font-weight: 250 ;">if you miss your childhood, we provide many traditional games here</p>
+                    </div>
+                    </div>
+                    <div class="garis"></div>
+                    <div class="container ct2">
+                    <div class="imgft2">
+                        <img class="el1" src="asset/ellipse-outline.svg" alt="">
+                    </div>
+                    <div class="ctnft1">
+                        <h2 style="color: rgb(255, 166, 0); font-weight: 400;">GAME SUIT</h2>
+                        </div>
+                    </div>
+
+                    <div class="container ct3">
+                        <div class="imgft2">
+                            <img class="el1" src="/assetweb/ellipse-outline.svg" alt="">
+                        </div>
+                        <div class="ctnft1">
+                            <h2 style="color: rgb(255, 166, 0); font-weight: 400;">TBD</h2>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!--Page 4-->
+
+<div class="system">
+    <div class="container-fluid">
+    <div class="tittlesystem">
+        <p>Can My Computer Run this game?</p>
+    </div>
+
+            <div class="container-fluid">
+            <div class="row">
+                <div class="row-cols-lg-2">
+                    <div class="row-cols-sm-6 headctrsys"> 
+                        <h2>SYSTEM REQUIREMENTS</h2>
+                    </div>
+                </div>
+                <div class="col col-md-6 requiretabel">
+                    
+                    <div class="row tabel-cont">
+                    <div class="col col-md-6 listos" style="border: 1px solid rgb(94, 92, 92);">
+                        <h2>OS:</h2>
+                        <p>Windows 7 64-bit only</p>
+                        <p>(NO OSX support at this time)</p>
+                    </div>
+                    <div class="col col-md-6 listos" style="border: 1px solid rgb(94, 92, 92) ;">
+                        <h2>PROCESSOR:</h2>
+                        <p>Intel Core 2 Duo @ 2.4GHZ or</p>
+                        <p>AMD Athlon X2 @2.8GHZ</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col col-md-6 listos" style="border: 1px solid rgb(94, 92, 92);">
+                        <h2>Memory:</h2>
+                        <p>4GB RAM</p>
+                    </div>
+                    <div class="col col-md-6 listos" style="border: 1px solid rgb(94, 92, 92);">
+                        <h2>STORAGE:</h2>
+                        <p>8 GB available space</p>
+                    </div>
+                    <div class="row-cols-lg-1 listgrap" style="border: 1px solid rgb(94, 92, 92); ;">
+                        <h2>GRAPHICS:</h2>
+                        <p>NVDIA Geforce GTX 2GB or</p>
+                        <p>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--Page 5-->
+    <div class="top-score">
+        <div class="container-fluid">
+            <div class="row tops">
+                <div class="col-lg-6">
+                    <div class="container-fluid isitop">
+                        <div class="col-lg-10 ts">
+                            <h2>TOP SCORES</h2>
+                            <p>This top score from various games provided on this platform</p>
+                        <button type="button" class="btntopscore" style="font-weight: bolder; border-radius: 6px; background-color: rgb(255, 166, 0); border: none;">see more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row wrappercomment">
+                        <div class="col-md-7 cl">
+                        
+                            <div class="col-md-12 imgts">
+                            <img class="imgevan" src="/assetweb/evan-lahti.jpg" alt="">
+                            <img class="yel" src="/assetweb/ellipse-orange.png" alt="">
+                            <img class="twitter" src="/assetweb/twitter.svg" alt="" style="fill: blue ;">
+                            <div class="profile">
+                            <h2>Evan Lahti</h2>
+                                <p>PC Gamer</p>
+                            </div>
+                            </div>
+                            <div class="col-md-12 comment">
+                                <p>"One of my gaming highlights of the year."</p>
+                                <p>June 18, 2021</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-md-7 cl">
+                            
+                            <div class="col-md-12 imgts">
+                            <img class="imgevan" src="/assetweb/jada-griffin.jpg" alt="">
+                            <img class="yel" src="/assetweb/ellipse-orange.png" alt="">
+                            <img class="twitter" src="/assetweb/twitter.svg" alt="" style="fill: blue ;">
+                            <div class="profile">
+                            <h2>Jada Griffin</h2>
+                                <p>Nerdreactor</p>
+                            </div>
+                            </div>
+                            <div class="col-md-12 comment">
+                                <p>"The next big thing in the world of streaming and survival games."</p>
+                                <p>July 10, 2021</p>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-md-7 cl">
+                            
+                            <div class="col-md-12 imgts">
+                            <img class="imgevan" src="/assetweb/aaron-williams.jpg" alt="">
+                            <img class="yel" src="/assetweb/ellipse-orange.png" alt="">
+                            <img class="twitter" src="/assetweb/twitter.svg" alt="" style="fill: blue ;">
+                            <div class="profile">
+                            <h2>Aaron Williams</h2>
+                                <p>Uproxx</p>
+                            </div>
+                            </div>
+                            <div class="col-md-12 comment">
+                                <p>"Snoop Dogg Playing The Wildly Entertaining 'SOS' is Ridiculous."</p>
+                                <p>December 24, 2018</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Page 6-->
+    <div class="newsletter">
+        <div class="container-fluid">
+            <div class="row news">
+                <div class="col-md-6 imgteng">
+                    
+                    <img class="imgskull" src="/assetweb/skull.png" alt="">
+                    
+                </div>
+                <div class="col-md-6 nsconten">
+                    <div class="col-sm-12 nlp">
+                        <div class="container">
+                        <p>Want to stay in touch?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-11 txtns">
+                        <div class="container">
+                        <h2>NEWSLETTER</h2>
+                        <h2>SUBSCRIBE</h2>
+                        <p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. we will semd you emails containing information about game. We don't spam.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-11 subs">
+                        <div class="container">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Your Email Address" aria-describedby="button-addon2">
+                            <button type="button" class="btnsubmit" style="font-weight: bolder; border-radius: 6px; background-color: rgb(255, 166, 0); border: none;">SUBSCRIBE</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid">
+                    <div class="footerlist-1">
+                        <div class="txtlist">
+                        <ul>
+                            <li><a href="#">MAIN</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">GAME FEATURES</a></li>
+                            <li><a href="#">SYSTEM REQUIREMENTS</a></li>
+                            <li><a href="#">QUOTES</a></li>
+                        </ul>
+                        </div>
+
+                        <div class="iconlist">
+                            <ul>
+                                <li><span style="color: white ;"><i class="fa-brands fa-facebook-f"></i></span></li>
+                                <li><span style="color: white ;"><i class="fa-brands fa-twitter"></span></i></li>
+                                <li><span style="color: red ;"><i class="fa-brands fa-youtube"></span></i></li>  
+                                <li><span style="color: white ;"><i class="fa-brands fa-twitch"></i></span></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                <hr>
+
+                    <div class="footerlist-2">
+                            <div class="cccopyright">
+                                <span style="color: grey ;"><i class="fa-solid fa-copyright"></i></span>
+                            </div>
+                            <div class="ccleft">
+                                <ul>
+                                    <li><p>2018 Your Games, Inc. All Rights Reserved</p></li>
+                                </ul>
+                            </div>
+                            <div class="ccright">
+                                <ul>
+                                    <li><p>PRIVACY POLICY</p></li>
+                                    <li><p>TERMS SERVICE</p></li>
+                                    <li><p>CODE OF CONDUCT</p></li>
+                                </ul>
+                            </div>
+                    </div>
+                
+
+                    
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

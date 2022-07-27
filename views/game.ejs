@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">  
+        <div class="container-fluid">
+        <div class="title">
+            <h1>ROCK PAPER SCISSORS</h1>
+            <a href="http://localhost:5000">back to home</a>
+        </div>
+        </div>
+    </nav>
+
+
+
+
+    <div id="ctngame">
+        <div class="tampilan">
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 15%;">
+                
+                <div class="col col1">
+                    <h2>PLAYER 1</h2>
+                    <div class="option" onclick="pickOption('kertas')"><img src="/assetweb/kertas.png" alt=""></div>
+                    <div class="option" onclick="pickOption('gunting')"><img src="/assetweb/gunting.png" alt=""></div>
+                    <div class="option" onclick="pickOption('batu')"><img src="/assetweb/batu.png" alt=""></div>
+                </div>
+                <div id="score" class="col col2">
+                    <div id="vs"><h2>VS</h2></div>
+                    <h1 id="inGame"></h1>
+                    <div id="reset" onclick="resetHasil('reset')"><img class="imgreset" src="/assetweb/refresh.png" alt=""></div>
+                </div>
+                <div class="col col3">
+                    <h2>COM</h2>
+                    <div class="option1"><img src="/assetweb/kertas.png" alt=""></div>
+                    <div class="option1"><img src="/assetweb/gunting.png" alt=""></div>
+                    <div class="option1"><img src="/assetweb/batu.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <body>
+
+        <script src="/js/games.js"></script>

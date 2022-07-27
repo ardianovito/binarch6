@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+<div id="registerpage" class="container-fluid">
+    <div class="container">
+                <div>
+                    <% if(errors != "") { %>
+                        <% errors.forEach((item) => { %>
+                            <div class="alert alert-danger">
+                                <%- item %>
+                            </div>
+                        <% }); %>
+                    <% } %>
+                </div>
+                <form id="registerform" method="POST" action="/register">
+                    <div class="form-group">
+                        <label for="fullName"><h3>Full name:</h3></label>
+                        <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><h3>Email address: (*)</h3></label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><h3>Password: (*)</h3></label>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="passwordConfirmation"><h3>Confirm password: (*)</h3></label>
+                        <input type="password" class="form-control" name="passwordConfirmation" id="passwordConfirmation" placeholder="Password Confirmation" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+
+                <hr>
+                <div>
+                    <p>If you already have had an account. <a href="/login">Log in</a>.</p> 
+                </div>
+                <div>
+                    <p>Return to <a href="/">Home Page</a></p> 
+                </div>
+                <br><br>
+                
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

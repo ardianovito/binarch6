@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: absolute;
+    width: 100%;
+}
+
+#navbar .title h1{
+    color: rgb(139, 67, 67);
+    padding:20px;
+
+}
+
+#ctngame {
+    background-color: burlywood;
+    height: 100vh; 
+}
+
+
+img{
+    width: 100px;
+    height:100px;
+    
+}
+
+.col1{
+    justify-content: center;
+    text-align: center;
+}
+
+.col2{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+#reset{
+    position: absolute;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.imgreset{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    
+}
+
+.col3{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.display{
+    z-index: 1;
+    position: absolute;
+    background-color: green;
+    width: 400px;
+    height: 150px;
+}
+
+
+
+#vs{
+    margin-top:30% ;
+    margin-left: 40%;
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+}
+
+#vs h2{
+    color: rgb(170, 40, 40);
+    font-size: 100px;
+}
+
+
+.option1{
+    padding: 20px;
+    width: 200px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+.option{ 
+    padding: 20px;
+    width: 200px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(201, 195, 188);
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    }
+
+
+#reset{
+    top:75%;
+    left: 50%;
+
+
+
+
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+    -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+}
+
+#inGame{
+    z-index: 1;
+    background-color: green;
+    justify-content: center;
+    display: none;
+    margin-top: 30%;
+    margin-left: 13%;
+    width: 64%;
+    height: 28%;
+    padding: 25px;
+    border-radius: 20px;
+    transform: rotate(-25deg);
+}
